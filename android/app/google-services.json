@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "445858466857",
+    "project_id": "vestidioterie",
+    "storage_bucket": "vestidioterie.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445858466857:android:5fb91236759a0ee76a2038",
+        "android_client_info": {
+          "package_name": "com.example.vestidioterie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "445858466857-t8o12c19ut9jjg4qrr5jku0m8ti0dpli.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOUbDoHJNbw1xtr8lkdLMuq1uhSBIqE8Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "445858466857-t8o12c19ut9jjg4qrr5jku0m8ti0dpli.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

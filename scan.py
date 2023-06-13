@@ -20,7 +20,10 @@ driver.implicitly_wait(10)
 huizen = driver.find_elements(By.XPATH, "//div/article")
 
 for huis in huizen:
-    print("nieuw huis:")
     soup = BeautifulSoup(huis.get_attribute("innerHTML"), 'html.parser')
-    titel = soup.find("h3", class_="house-thumb-title")
-    prijs = soup.find("div", class_="house-thumb-meta-price")
+    titel = soup.find("h3", class_="house-thumb-title").text.strip()
+    prijs = soup.find("div", class_="house-thumb-meta-price").text.splitlines()[2].strip()
+    link  = f"https://rooms.vestide.nl{soup.find('a', class_='house-thumb-click-area').get('href')}"
+
+    #print(soup.prettify())
+    print(f"{titel} voor {prijs}; op {link}")
