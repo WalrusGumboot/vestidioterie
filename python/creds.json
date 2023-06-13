@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "vestidioterie",
+  "private_key_id": "276ed6a480b8431e84fee5a439002a071b155ab1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDE+GaAB0Crl7NX\nREPZlsHVHhFxItDYKFf0XzFpw6CtD3/MyRss9qvgf50thERdoMRyLiftQnkSzvPj\njQpbyBNXWvbirCrQSuW5UYCBNKIbWeQUKwirDbOqRNujDGLvX21gg2PpELZlKvB/\nP8eKRhTWHKeYkFDxjJLnbQlxPiobkYsCdpNzYzVo2mSlDfaE5b3rWwxqU0YvuZ2a\n2ZQYOq2OWnQQBRVSpWSm9NvY/JiEeaQ3LHYJPNKoxiNaTQGVijjsXUJX6MMk+D4/\nv6bMiZMJZhwjV3bjKXJnjWfORu9JdhX6lZIIIFHSK4XPRxJH34GL1T/BfWMhQEwf\nFPdhEu+VAgMBAAECggEAAMhEzL/Y4RtoVhEMNyO2JQGZfj5pckvvKNcNxEdMJ8fg\n7Hajy5wH7HjrY8P7FQWR28TalC22UVFjSQ/J6A1zKIr4YfG5w2fWtfQvwCUTQvLg\nFdOMVCyld1bbU86ZcQxqhhEib0lyNvzwhpIFHU0Ts08EvEJisakDTmPH0fcs4JVm\nn5Nmgr64PyT58LRQnzy/kei18G+/mX3iqfQp61k2dSGvG2WCqdIUEE9mU/uKk2DQ\n/JmZwAKctIi6lj/bjXZGUz6SWw33DrTHvR7pzD2fWH08cDQX5yK2Flwzt2pW+CVR\nzxZKZbdsXbLeaohha7mQjwygW4cQexoKsooRjZZGgQKBgQD5pRbM1kNK1ZkTAat/\nlD0kg7yLhlWrXoafG4temEkozzznLbZFWuKNsbzZumAnzUNL9vFA+bWVBfD+vjD9\noiY7pNDW/GnGekqoeahRp/Z5xKnjZF2fL4Uj4SuotmL0iIQFEW7VyHlmaPGGcoPO\nEsQpV6CX5CNYRThgfpM5ybx+/QKBgQDJ/AlR/J7w5WIDcyyD5d59HM+BsYxpUNju\nD5Y4RLaXU8FUh6V7Stzh6brQXwH/ed3c5uw3slQJwmWQnv+QIs4PhvhtVZnzR7MM\nbe9WwwIETuRwMfiqQLMgVjWAmJ9Be5CnOJfK1VvE+D+/+ASwZdBj1NZSKlAFJxYs\nXF+sehuyeQKBgBbe3PvfFUMh1mg7Wu7RMdjKiNdvcyHEAylIaLg901X9xmKXeX9Z\nGDBK/DYmMPD0iRnIgcmmFtCUPsPXwL07waztKITJkxcv1O8iVh1E+ful3LqMU1dm\nDxh+ZHWMX/xvFUkxk6naN+T98EKU8yZJ6davxHKl3+cSUFvmvK4qoS4xAoGAVkYy\nUPO/jBPeZqzWUcxo2TXqKHKHECD5V84OkyA+garDxHBgLaaPbGuiYQiD2PTb4FQ+\nh5fDL5v6N+jCLnW/YIB9Mm5C4Ng6UU/P0FZhUSfFiWq+1THnkSNhnPkT5St7YQHa\nTEgP97U1vbCZiCMk/M9XcCckoN7OKMqYDxrlI7kCgYEA3pTbgbJl0HQUR4vKfT40\nYnyI5ckuzLfizsfL9Bdq3vyIFyz5TJRrei3jo6SeuZoFcEYoBze65hScaLSJrAtL\nHlk9iLu27aBQd4gXPI9V2BlYbuS739DFWbdCFG87fR+3qolDW/WdCjvgzF2dGQEN\nd/99PCkyvolXwKhNI/TvnIM=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-gc1ge@vestidioterie.iam.gserviceaccount.com",
+  "client_id": "114113035894849872186",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-gc1ge%40vestidioterie.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

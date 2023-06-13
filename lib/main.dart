@@ -9,15 +9,18 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   await Firebase.initializeApp(
-      options: DefaultFirebaseOptions.currentPlatform,
+    options: DefaultFirebaseOptions.currentPlatform,
   );
-  
-  Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
+
+  Future<void> _firebaseMessagingBackgroundHandler(
+      RemoteMessage message) async {
     await Firebase.initializeApp();
     print("Handling a background message: ${message.messageId}");
   }
 
   FirebaseMessaging messaging = FirebaseMessaging.instance;
+
+  await FirebaseMessaging.instance.subscribeToTopic("woning");
 
   await FirebaseMessaging.instance.setForegroundNotificationPresentationOptions(
     alert: true, // Required to display a heads up notification
@@ -48,16 +51,18 @@ void main() async {
   const AndroidNotificationChannel channel = AndroidNotificationChannel(
     'high_importance_channel', // id
     'High Importance Notifications', // title
-    description: 'This channel is used for important notifications.', // description
+    description:
+        'This channel is used for important notifications.', // description
     importance: Importance.max,
   );
 
   final FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin =
-    FlutterLocalNotificationsPlugin();
+      FlutterLocalNotificationsPlugin();
 
   await flutterLocalNotificationsPlugin
-    .resolvePlatformSpecificImplementation<AndroidFlutterLocalNotificationsPlugin>()
-    ?.createNotificationChannel(channel);
+      .resolvePlatformSpecificImplementation<
+          AndroidFlutterLocalNotificationsPlugin>()
+      ?.createNotificationChannel(channel);
 
   runApp(const MainApp());
 }
@@ -101,7 +106,6 @@ class _MainAppState extends State<MainApp> {
     });
   }
 
-
   @override
   void initState() {
     super.initState();
@@ -115,13 +119,8 @@ class _MainAppState extends State<MainApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        body: Center(
-          child: Column(
-            children: [
-              const Text('Dit is de Vestidioterie app.'),
-              Column(children: cards,)
-            ],
-          ),
+        body: const Center(
+          child: Text("Dit is de Vestidioterie app."),
         ),
       ),
     );
