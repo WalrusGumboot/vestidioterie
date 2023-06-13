@@ -1,0 +1,2 @@
+1686603025839	geckodriver	INFO	Listening on 127.0.0.1:35405
+1686603025859	webdriver::server	WARN	Rejected request with Host header localhost:35405, allowed values are []
